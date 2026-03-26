@@ -6,7 +6,7 @@ public class Main {
         
         Entrenador entrenador1 = new Entrenador("Carlos Pérez", "123456789", 35, "carlos@gimnasio.com", "Musculación");
         Entrenador entrenador2 = new Entrenador("María López", "987654321", 28, "maria@gimnasio.com", "Cardio");
-        Entrenador entrenador3 = new Entrenador("Juan Rodríguez", "456789123", 40, "juan@gimnasio.com", "CrossFit");
+        Entrenador entrenador3 = new Entrenador("James Rodríguez", "456789123", 40, "james@gimnasio.com", "CrossFit");
         
         Rutina rutina1 = new Rutina("Rutina de Fuerza", "Intermedio", 45);
         Rutina rutina2 = new Rutina("Rutina de Cardio", "Principiante", 30);
@@ -61,7 +61,10 @@ public class Main {
         if (rutinaSeleccionada != null && entrenadorSeleccionado != null) {
             rutinaSeleccionada.asignarEntrenador(entrenadorSeleccionado);
         }
-        
+        else{
+            System.out.println("Valor invalido");
+        }
+
         System.out.println("Datos completos:");
         miembro.mostrarDatosMiembro();
         System.out.println();
