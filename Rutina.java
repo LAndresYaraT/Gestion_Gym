@@ -43,9 +43,9 @@ public class Rutina {
     }
 
     public void mostrarRutina(){
-         System.out.println("rutina" + nombre);
-         System.out.println("nivel"+ nivel);
-         System.out.println("duracion" + duracion);
+         System.out.println("Rutina: " + nombre);
+         System.out.println("Nivel: "+ nivel);
+         System.out.println("Duracion: " + duracion);
 
           if (entrenador != null) {
             System.out.println("entrenador" + entrenador.getNombre());

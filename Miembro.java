@@ -10,7 +10,7 @@ public class Miembro extends Persona {
         return codigoMiembro;
     }
 
-    public void setCodigoMiembro(){
+    public void setCodigoMiembro(String codigoMiembro){
         this.codigoMiembro = codigoMiembro;
     }
 
