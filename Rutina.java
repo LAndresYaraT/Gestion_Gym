@@ -48,7 +48,7 @@ public class Rutina {
          System.out.println("Duracion: " + duracion);
 
           if (entrenador != null) {
-            System.out.println("entrenador" + entrenador.getNombre());
+            System.out.println("Entrenador: " + entrenador.getNombre());
           }
           else {
 
