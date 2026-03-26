@@ -1,11 +1,11 @@
-Public class Persona{
+public class Persona{
 
     private String nombre;
     private String documento;
     private int edad;
     private String correo;
 
-    public Persona(nombre,documento,edad,correo){
+    public Persona(String nombre,String documento,int edad,String correo){
         this.nombre = nombre;
         this.documento = documento;
         this.edad = edad;

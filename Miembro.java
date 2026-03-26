@@ -1,7 +1,7 @@
 public class Miembro extends Persona {
     private String codigoMiembro;
     
-    public Miembro(String nombre,String documento, int edad, String correo, string codigoMiembro) {
+    public Miembro(String nombre,String documento, int edad, String correo, String codigoMiembro) {
         super(nombre, documento, edad, correo);
         this.codigoMiembro = codigoMiembro;
     }
@@ -10,7 +10,7 @@ public class Miembro extends Persona {
         return codigoMiembro;
     }
 
-    public setCodigoMiembro(){
+    public void setCodigoMiembro(){
         this.codigoMiembro = codigoMiembro;
     }
 

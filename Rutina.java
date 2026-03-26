@@ -42,13 +42,13 @@ public class Rutina {
         this.entrenador=entrenador;
     }
 
-    public mostrarRutina(){
+    public void mostrarRutina(){
          System.out.println("rutina" + nombre);
          System.out.println("nivel"+ nivel);
          System.out.println("duracion" + duracion);
 
           if (entrenador != null) {
-            System.out.println("entrenador" + entrenador.getnombre);
+            System.out.println("entrenador" + entrenador.getNombre());
           }
           else {
 
